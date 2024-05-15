@@ -1,0 +1,12 @@
+:root{
+    --color-primary: #021022;
+    --color-accent: #1368D3;
+    --color-white: #FEFEFB;
+    
+    --bg-primary: #FEFEFB;
+    --bg-accent: #EAF1FA; 
+
+    --bp-mobile: 640px;
+    --bp-table: 1024px;
+    --bp-laptop: 1440px;
+}

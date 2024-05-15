@@ -1,0 +1,37 @@
+@import url('./header.css');
+@import url('./finles.css');
+@import url('./reset.css');
+@import url('./variables.css');
+@import url('./fonts.css');
+@import url('./typography.css');
+@import url('./nav.css');
+@import url('./baner.css');
+@import url('./dark.css');
+@import url('./investsment.css');
+@import url('./focus.css');
+@import url('./services.css');
+@import url('./solutions.css');
+@import url('./studies.css');
+@import url(./team.css);
+@import url(./footer.css);
+@import url(./animation.css);
+@import url(./burger.css);
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Nimbus Sans L', sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page-wrapper {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

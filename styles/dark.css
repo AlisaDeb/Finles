@@ -1,0 +1,48 @@
+.proven {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 240px;
+    margin-left: auto;
+    margin-bottom: 250px;
+   
+}
+.dark {
+    width: 100%;
+    background-color: var(--color-primary);
+}
+.about__text {
+    color: var(--color-white);
+    margin-top: 20px;
+    margin-bottom: 26px;
+    line-height: 28px;
+}
+
+.about__text_title {
+    color: var(--color-white);
+    margin-bottom: 12px;
+    line-height: 28px;
+    font-weight: 700;
+}
+    
+.link__arrow {
+    color: var(--color-accent);
+    font-weight: 400;
+    
+}
+.link {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.round {
+    margin-right: 10px;
+}
+
+@media (max-width: 1024px) {
+    .proven {
+       width: 100%;
+       margin-bottom: 180px;
+    }
+}
